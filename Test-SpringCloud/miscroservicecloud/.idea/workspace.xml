@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2068bf3b-50a3-46b1-80a7-fcddac068f04" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/../miscrservicecloud-api/target/" />
+    <ignored path="$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/target/" />
+    <ignored path="$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/target/" />
+    <ignored path="$PROJECT_DIR$/../miscroservicecloud-eureka-server-7001/target/" />
+    <ignored path="$PROJECT_DIR$/../miscroservicecloud-eureka-server-7003/target/" />
+    <ignored path="$PROJECT_DIR$/../miscroservicecloud-eureka-server-7002/target/" />
+    <ignored path="$PROJECT_DIR$/../miscroservicecloud-provider-dept-8002/target/" />
+    <ignored path="$PROJECT_DIR$/../miscroservicecloud-provider-dept-8003/target/" />
+    <ignored path="$PROJECT_DIR$/../miscroservicecloud-provider-dept-hystrix8001/target/" />
+    <ignored path="$PROJECT_DIR$/../miscroservicecloud-zuul-gateway-8001/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost:3306/test1" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost:3306/test1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost:3306/test1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test1: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/src/main/java/com/yuan/springcloud/controller/DeptController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="25" column="27" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/src/main/java/com/yuan/springcloud/DeptConsumerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/src/main/java/com/yuan/ribbonConfig/MyRibbonConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/src/main/java/com/yuan/springcloud/controller/DeptConsumerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="15" column="82" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="82" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/src/main/java/com/yuan/entities/Dept.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1364">
+              <caret line="62" column="21" selection-start-line="59" selection-start-column="7" selection-end-line="62" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="902">
+              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/src/main/java/com/yuan/springcloud/entities/Dept.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>findOneById</find>
+      <find>eu</find>
+      <find>spring-cloud-netflix</find>
+      <find>lombok</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../miscrservicecloud-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../miscrservicecloud-api/src/main/java/com/yuan/springcloud/entities/Dept.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/src/main/java/com/yuan/springcloud/DeptApplication.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/src/main/java/com/yuan/springcloud/dao/DeptDao.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/src/main/java/com/yuan/springcloud/service/DeptService.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/src/main/resources/mybatis/mybatis-config.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6451f9dc-5847-455d-b38b-645f838a23de/console.sql" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/src/main/java/com/yuan/springcloud/service/impl/DeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/src/main/java/com/yuan/springcloud/config/RestTempleteConfig.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/src/main/java/com/yuan/springcloud/config/RestTemplateConfig.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/src/main/java/com/yuan/springcloud/config/RestTemplateBean.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-eureka-server-7001/pom.xml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-eureka-server-7001/src/main/java/com/yuan/springcloud/EurekaServerApplication_7001.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/src/main/java/com/yuan/springcloud/DeptProviderApplication.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/src/main/java/com/yuan/springcloud/DeptProviderApplication_8001.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-eureka-server-7002/pom.xml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-eureka-server-7003/pom.xml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-eureka-server-7002/src/main/java/com/yuan/springcloud/EurekaServerApplication_7002.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-eureka-server-7003/src/main/java/com/yuan/springcloud/EurekaServerApplication_7003.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-eureka-server-7002/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-eureka-server-7003/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-8002/pom.xml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-8002/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-8002/src/main/java/com/yuan/springcloud/DeptProviderApplication_8002.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-8003/pom.xml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-8003/src/main/java/com/yuan/springcloud/DeptProviderApplication_8003.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-8002/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-8003/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/src/main/java/com/yuan/springcloud/config/RestConfigBean.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/src/main/java/com/yuan/ribbonConfig/MyRibbonConfig.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-hystrix8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-hystrix8001/pom.xml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-hystrix8001/src/main/java/com/yuan/springcloud/DeptProviderApplication_hystrix_8001.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-hystrix8001/src/main/java/com/yuan/springcloud/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-zuul-gateway-8001/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-zuul-gateway-8001/src/main/java/com/yuan/springcloud/MyZuul_9001.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-zuul-gateway-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-zuul-gateway-8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-eureka-server-7001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/src/main/java/com/yuan/springcloud/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/src/main/java/com/yuan/entities/Dept.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/pom.xml" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/src/main/java/com/yuan/springcloud/controller/DeptConsumerController.java" />
+        <option value="$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/src/main/java/com/yuan/springcloud/DeptConsumerApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\ideaTool\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1186" />
+    <option name="height" value="1546" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <showExcludedFiles Scope="true" ProjectPane="true" />
+      <hideEmptyPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="miscroservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miscroservicecloud-provider-dept-8001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miscroservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miscroservicecloud-provider-dept-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miscroservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miscroservicecloud-provider-dept-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miscroservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miscroservicecloud-provider-dept-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miscroservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miscroservicecloud-provider-dept-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miscroservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miscroservicecloud-provider-dept-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yuan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miscroservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miscroservicecloud-provider-dept-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yuan" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miscroservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miscroservicecloud-provider-dept-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yuan" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600958521853" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yuan.entities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaTool\workspace_idea\miscroservicecloud-zuul-gateway-8001\src\main\java" />
+      <recent name="D:\ideaTool\workspace_idea\miscroservicecloud-provider-dept-hystrix8001\src\main\java" />
+      <recent name="D:\ideaTool\workspace_idea\miscroservicecloud-provider-dept-hystrix8001\src\main\resources" />
+      <recent name="D:\ideaTool\workspace_idea\miscroservicecloud-provider-dept-8003\src\main\java" />
+      <recent name="D:\ideaTool\workspace_idea\miscroservicecloud-provider-dept-8003\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DeptProviderApplication_8001">
+    <configuration name="DeptConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="miscroservicecloud-consumer-dept-80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuan.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yuan.springcloud.DeptConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeptProviderApplication_8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="miscroservicecloud-provider-dept-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuan.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yuan.springcloud.DeptProviderApplication_8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication_7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="miscroservicecloud-eureka-server-7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuan.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yuan.springcloud.EurekaServerApplication_7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication_7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="miscroservicecloud-eureka-server-7002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuan.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yuan.springcloud.EurekaServerApplication_7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication_7003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="miscroservicecloud-eureka-server-7003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuan.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yuan.springcloud.EurekaServerApplication_7003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DeptProviderApplication_8001" />
+        <item itemvalue="Spring Boot.DeptConsumerApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication_7001" />
+        <item itemvalue="Spring Boot.EurekaServerApplication_7003" />
+        <item itemvalue="Spring Boot.EurekaServerApplication_7002" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2068bf3b-50a3-46b1-80a7-fcddac068f04" name="Default Changelist" comment="" />
+      <created>1588500425641</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588500425641</updated>
+      <workItem from="1588500428961" duration="14968000" />
+      <workItem from="1588651356344" duration="9459000" />
+      <workItem from="1588771461354" duration="876000" />
+      <workItem from="1588772361721" duration="2502000" />
+      <workItem from="1588853945636" duration="1312000" />
+      <workItem from="1589095300113" duration="4088000" />
+      <workItem from="1589198492303" duration="659000" />
+      <workItem from="1589701056716" duration="3512000" />
+      <workItem from="1589812110595" duration="3777000" />
+      <workItem from="1589894772808" duration="1455000" />
+      <workItem from="1590154695191" duration="1837000" />
+      <workItem from="1590240366895" duration="778000" />
+      <workItem from="1590292936715" duration="5178000" />
+      <workItem from="1591522085483" duration="688000" />
+      <workItem from="1591883221439" duration="599000" />
+      <workItem from="1592138789690" duration="736000" />
+      <workItem from="1592733945435" duration="5710000" />
+      <workItem from="1593085980392" duration="1528000" />
+      <workItem from="1593158239606" duration="602000" />
+      <workItem from="1593219379319" duration="2351000" />
+      <workItem from="1593226805122" duration="5978000" />
+      <workItem from="1593855984853" duration="714000" />
+      <workItem from="1593933979645" duration="777000" />
+      <workItem from="1594121825989" duration="538000" />
+      <workItem from="1594123122015" duration="2078000" />
+      <workItem from="1594130576771" duration="2726000" />
+      <workItem from="1594133313977" duration="41000" />
+      <workItem from="1594133401028" duration="4000" />
+      <workItem from="1594133880765" duration="640000" />
+      <workItem from="1594546403397" duration="657000" />
+      <workItem from="1600953967217" duration="1405000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="78173000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33360323" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45878693" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8016194" weight="0.64852256" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.62208396" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.19838056" side_tool="true" weight="0.27527216" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32970452" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.4388664" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.19433199" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.351417" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45878693" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8016194" visible="true" weight="0.43390357" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.62208396" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.19838056" side_tool="true" weight="0.27527216" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32970452" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.4388664" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.19433199" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8002/src/main/resources/mybatis/mapper/DeptMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8002/src/main/java/com/yuan/springcloud/service/DeptService.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8002/src/main/java/com/yuan/springcloud/controller/DeptController.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8002/src/main/java/com/yuan/springcloud/dao/DeptDao.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8002/src/main/java/com/yuan/springcloud/service/impl/DeptServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8003/src/main/resources/mybatis/mapper/DeptMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8003/src/main/java/com/yuan/springcloud/controller/DeptController.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8003/src/main/java/com/yuan/springcloud/service/impl/DeptServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8003/src/main/java/com/yuan/springcloud/dao/DeptDao.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8003/src/main/java/com/yuan/springcloud/service/DeptService.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8003/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8002/src/main/resources/application.yml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8002/src/main/java/com/yuan/springcloud/DeptProviderApplication_8002.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8003/src/main/java/com/yuan/springcloud/DeptProviderApplication_8003.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-hystrix8001/src/main/resources/mybatis/mapper/DeptMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-hystrix8001/src/main/java/com/yuan/springcloud/service/impl/DeptServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-hystrix8001/src/main/java/com/yuan/springcloud/service/DeptService.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-hystrix8001/src/main/java/com/yuan/springcloud/dao/DeptDao.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-hystrix8001/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-hystrix8001/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-hystrix8001/src/main/java/com/yuan/springcloud/controller/DeptController.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-hystrix8001/src/main/java/com/yuan/springcloud/DeptProviderApplication_hystrix_8001.java" />
+    <entry file="file://$PROJECT_DIR$/../miscrservicecloud-api/src/main/java/com/yuan/springcloud/entities/Dept.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-zuul-gateway-8001/src/main/java/com/yuan/springcloud/service/DeptService.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-zuul-gateway-8001/src/main/java/com/yuan/springcloud/controller/DeptController.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-zuul-gateway-8001/src/main/java/com/yuan/springcloud/dao/DeptDao.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-zuul-gateway-8001/src/main/java/com/yuan/springcloud/service/impl/DeptServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-zuul-gateway-8001/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-zuul-gateway-8001/src/main/java/com/yuan/springcloud/MyZuul_9001.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8003/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-zuul-gateway-8001/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/src/main/java/com/yuan/springcloud/dao/DeptDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/src/main/java/com/yuan/springcloud/config/RestConfigBean.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-eureka-server-7002/src/main/java/com/yuan/springcloud/EurekaServerApplication_7002.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-eureka-server-7003/src/main/java/com/yuan/springcloud/EurekaServerApplication_7003.java" />
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/src/main/java/com/yuan/springcloud/DeptProviderApplication_8001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-eureka-server-7001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-eureka-server-7001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-eureka-server-7001/src/main/java/com/yuan/springcloud/EurekaServerApplication_7001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/src/main/java/com/yuan/ribbonConfig/MyRibbonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/src/main/java/com/yuan/springcloud/controller/DeptConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="82" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/src/main/java/com/yuan/entities/Dept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="62" column="21" selection-start-line="59" selection-start-column="7" selection-end-line="62" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/src/main/java/com/yuan/springcloud/entities/Dept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-consumer-dept-80/src/main/java/com/yuan/springcloud/DeptConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../miscroservicecloud-provider-dept-8001/src/main/java/com/yuan/springcloud/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>miscroservicecloud-eureka-server-7001</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

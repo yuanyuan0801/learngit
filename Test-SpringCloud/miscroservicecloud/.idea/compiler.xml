@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="miscroservicecloud-consumer-dept-80" />
+        <module name="miscroservicecloud-eureka-server-7001" />
+        <module name="miscroservicecloud-eureka-server-7002" />
+        <module name="miscroservicecloud-eureka-server-7003" />
+        <module name="miscroservicecloud-provider-dept-8001" />
+        <module name="miscroservicecloud-provider-dept-8002" />
+        <module name="miscroservicecloud-provider-dept-8003" />
+        <module name="miscroservicecloud-provider-dept-hystrix8001" />
+        <module name="miscroservicecloud-zuul-gateway-8001" />
+        <module name="miscrservicecloud-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
