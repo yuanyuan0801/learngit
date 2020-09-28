@@ -25,7 +25,7 @@ public class DeptController {
 
     @GetMapping("/dept/get/{id}")
     public Dept findOneById(@PathVariable("id") Long id){
-        System.out.println("这是secondBranch上的东西");
+        System.out.println("这是master上的东西");
         return deptService.findOneById(id);
     }
 
