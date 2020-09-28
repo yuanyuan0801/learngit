@@ -14,4 +14,8 @@
     <select id="findOneById" parameterType="Long" resultType="Dept">
         select db_no,db_name,db_source from dept where db_no=#{dbNo};
     </select>
+
+    <delete id="deleteById" parameterType="Long" >
+        delete from dept where db_no=#{dbNo};
+    </delete>
 </mapper>
