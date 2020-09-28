@@ -26,6 +26,12 @@ public class DeptServiceImpl implements DeptService {
 
     @Override
     public Dept findOneById(Long id) {
+        System.out.println("这是一句测试语句");
         return deptDao.findOneById(id);
+    }
+
+    @Override
+    public boolean deleteById(Long id) {
+        return deptDao.deleteById(id);
     }
 }
