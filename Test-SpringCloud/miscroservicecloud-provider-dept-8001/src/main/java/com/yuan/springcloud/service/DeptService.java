@@ -9,4 +9,6 @@ public interface DeptService {
     boolean add(Dept dept);
     List<Dept> findAll();
     Dept findOneById(Long id);
+    boolean deleteById(Long id);
+
 }
