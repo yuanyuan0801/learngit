@@ -8,9 +8,9 @@
     <artifactId>miscroservicecloud</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>../miscroservicecloud-provider-dept-8001</module>
-        <module>../miscroservicecloud-consumer-dept-80</module>
-        <module>../miscroservicecloud-eureka-server-7001</module>
+        <module>miscroservicecloud-provider-dept-8001</module>
+        <module>miscroservicecloud-consumer-dept-80</module>
+        <module>miscroservicecloud-eureka-server-7001</module>
     </modules>
 
     <packaging>pom</packaging>
