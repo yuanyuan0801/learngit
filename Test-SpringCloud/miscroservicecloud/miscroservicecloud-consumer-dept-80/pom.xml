@@ -6,7 +6,7 @@
         <artifactId>miscroservicecloud</artifactId>
         <groupId>com.yuan.springcloud</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../miscroservicecloud/pom.xml</relativePath>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
