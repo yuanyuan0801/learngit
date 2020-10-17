@@ -6,6 +6,7 @@ import com.yuan.springcloud.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 
@@ -37,6 +38,16 @@ public class DeptController {
         entity.setMessage("请求执行成功");
         entity.setDept(deptService.findOneById(id));
         return entity;
+    }
+
+    @GetMapping("/export")
+    public void exportExcel(HttpServletResponse response){
+       long start =  System.currentTimeMillis();
+       deptService.exportExcel(response);
+       long end = System.currentTimeMillis();
+       long time = end-start;
+        System.out.println("下载时长："+time);
+
     }
 
 

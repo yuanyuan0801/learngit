@@ -1,6 +1,7 @@
 package com.yuan.springcloud.dao;
 
 import com.yuan.springcloud.entities.Dept;
+import com.yuan.springcloud.entities.excel.DeptExcelEntity;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
@@ -13,4 +14,6 @@ public interface DeptDao {
     List<Dept> findAll();
     Dept findOneById(Long id);
     boolean deleteById(Long id);
+
+    List<DeptExcelEntity> findDataToExcel();
 }

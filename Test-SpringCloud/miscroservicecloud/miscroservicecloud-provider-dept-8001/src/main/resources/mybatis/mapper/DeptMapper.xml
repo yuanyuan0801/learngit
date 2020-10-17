@@ -18,4 +18,9 @@
     <delete id="deleteById" parameterType="Long" >
         delete from dept where db_no=#{dbNo};
     </delete>
+
+    <!--导出数据库信息到excel文件-->
+    <select id="findDataToExcel" resultType="DeptExcelEntity">
+        select db_no,db_name,db_source from dept
+    </select>
 </mapper>
