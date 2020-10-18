@@ -3,6 +3,10 @@ package com.yuan.springcloud.controller;
 import com.yuan.springcloud.entities.ApiResponseEntity;
 import com.yuan.springcloud.entities.Dept;
 import com.yuan.springcloud.service.DeptService;
+import com.yuan.springcloud.util.ApiResponseUtil;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -10,6 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 
+@Api(tags = "部门分类")
 @RestController
 public class DeptController {
     @Autowired
@@ -17,10 +22,8 @@ public class DeptController {
 
     @PostMapping("/dept/add")
     public ApiResponseEntity add(@RequestBody Dept dept){
-       deptService.add(dept);
-        ApiResponseEntity entity = new ApiResponseEntity();
-        entity.setCode("0");
-        entity.setMessage("请求执行成功");
+        deptService.add(dept);
+        ApiResponseEntity entity = ApiResponseUtil.success();
         return entity;
     }
 
@@ -29,17 +32,15 @@ public class DeptController {
         return deptService.findAll();
     }
 
+
+    @ApiOperation(value = "部门查询")
     @GetMapping("/dept/get/{id}")
     public ApiResponseEntity findOneById(@PathVariable("id") Long id){
-        System.out.println("这是firstBranch上的东西");
-        System.out.println("这是master上的东西");
-        ApiResponseEntity entity = new ApiResponseEntity();
-        entity.setCode("0");
-        entity.setMessage("请求执行成功");
-        entity.setDept(deptService.findOneById(id));
+        ApiResponseEntity entity = ApiResponseUtil.successWithData(deptService.findOneById(id));
         return entity;
     }
 
+    @ApiOperation("数据导出")
     @GetMapping("/export")
     public void exportExcel(HttpServletResponse response){
        long start =  System.currentTimeMillis();
