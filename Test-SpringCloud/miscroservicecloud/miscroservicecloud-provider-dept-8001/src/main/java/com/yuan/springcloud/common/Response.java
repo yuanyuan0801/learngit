@@ -1,4 +1,4 @@
-package com.yuan.springcloud.Common;
+package com.yuan.springcloud.common;
 
 import lombok.Getter;
 

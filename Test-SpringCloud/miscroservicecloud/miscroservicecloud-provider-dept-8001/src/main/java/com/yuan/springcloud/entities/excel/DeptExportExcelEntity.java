@@ -4,9 +4,13 @@ import com.alibaba.excel.annotation.ExcelProperty;
 import com.alibaba.excel.metadata.BaseRowModel;
 import lombok.Data;
 
-
+  /**
+   * @Author yuanxiya
+   * @Description 将数据库数据导出到excel中时，文件对应的实体类
+   * @Date 2020/10/19 22:40
+   */
 @Data
-public class DeptExcelEntity extends BaseRowModel {
+public class DeptExportExcelEntity extends BaseRowModel {
 
     @ExcelProperty(value = "序列号id",index = 0)
     private Long dbNo;

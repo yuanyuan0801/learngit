@@ -1,7 +1,8 @@
 package com.yuan.springcloud.util;
 
-import com.yuan.springcloud.Common.Response;
+import com.yuan.springcloud.common.Response;
 import com.yuan.springcloud.entities.ApiResponseEntity;
+import io.swagger.annotations.ApiResponse;
 
 public class ApiResponseUtil {
 
@@ -14,5 +15,6 @@ public class ApiResponseUtil {
         apiResponseEntity.setData(data);
         return apiResponseEntity;
     }
+
 
 }

@@ -1,8 +1,9 @@
 package com.yuan.springcloud.dao;
 
 import com.yuan.springcloud.entities.Dept;
-import com.yuan.springcloud.entities.excel.DeptExcelEntity;
+import com.yuan.springcloud.entities.excel.DeptExportExcelEntity;
 import org.apache.ibatis.annotations.Mapper;
+import org.eclipse.jetty.util.StringUtil;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -15,5 +16,7 @@ public interface DeptDao {
     Dept findOneById(Long id);
     boolean deleteById(Long id);
 
-    List<DeptExcelEntity> findDataToExcel();
+    List<Dept> findExist(String dbName, String dbSource);
+
+    List<DeptExportExcelEntity> findDataToExcel();
 }

@@ -20,7 +20,12 @@
     </delete>
 
     <!--导出数据库信息到excel文件-->
-    <select id="findDataToExcel" resultType="DeptExcelEntity">
+    <select id="findDataToExcel" resultType="DeptExportExcelEntity">
         select db_no,db_name,db_source from dept
+    </select>
+
+    <!--导出数据库信息到excel文件-->
+    <select id="findExist" resultType="Dept">
+        select db_no,db_name,db_source from dept where db_name=#{dbName} and db_source=#{dbSource}
     </select>
 </mapper>
