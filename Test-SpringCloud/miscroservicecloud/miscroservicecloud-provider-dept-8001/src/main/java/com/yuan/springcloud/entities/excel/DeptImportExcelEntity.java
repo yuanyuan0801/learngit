@@ -11,7 +11,7 @@ import lombok.Data;
  * @Date 2020/10/19 22:42
  */
 @Data
-public class DeptImportExcelEntity extends BaseRowModel{
+public class DeptImportExcelEntity {
     @ExcelProperty(value = "序列号",index = 0)
     private Long dbNo;
     @ExcelProperty(value = "部门",index = 1)

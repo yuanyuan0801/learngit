@@ -31,6 +31,7 @@ public class DeptImportListener extends AnalysisEventListener<DeptImportExcelEnt
     public void invoke(DeptImportExcelEntity deptImportExcelEntity, AnalysisContext analysisContext) {
         System.out.println("=========================");
         int currentRowNum = analysisContext.readRowHolder().getRowIndex()+1;
+        System.out.println("当前数据"+deptImportExcelEntity.getDbNo()+deptImportExcelEntity.getDbName()+deptImportExcelEntity.getDbSource());
         if(checkNullRow(deptImportExcelEntity)){
             return;
         }
@@ -42,12 +43,19 @@ public class DeptImportListener extends AnalysisEventListener<DeptImportExcelEnt
     }
 
     private boolean checkNullRow(DeptImportExcelEntity deptImportExcelEntity) {
+        System.out.println(deptImportExcelEntity.getDbName()+"------------------");
+        System.out.println(deptImportExcelEntity.getDbSource()+"--------------");
+
         return StringUtil.isBlank(deptImportExcelEntity.getDbName())&&StringUtil.isBlank(deptImportExcelEntity.getDbSource());
     }
 
     private boolean checkExist(DeptImportExcelEntity deptImportExcelEntity,int currentRowNum) {
-        List<Dept> depts = deptDao.findExist(deptImportExcelEntity.getDbName(),deptImportExcelEntity.getDbSource());
-        if(depts.isEmpty()){
+        System.out.println(deptImportExcelEntity.getDbName()+"------------------");
+        System.out.println(deptImportExcelEntity.getDbSource()+"--------------");
+        String dbName = deptImportExcelEntity.getDbName();
+        String dbSource = deptImportExcelEntity.getDbSource();
+        List<Dept> depts = deptDao.findExist(dbName,dbSource);
+        if(!depts.isEmpty()){
             errorList.add(currentRowNum+"行数据已存在");
             return true;
         }

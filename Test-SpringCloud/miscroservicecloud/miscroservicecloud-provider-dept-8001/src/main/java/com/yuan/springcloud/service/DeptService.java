@@ -119,7 +119,7 @@ public class DeptService {
         DeptImportListener listener = new DeptImportListener(deptDao);
         try {
            InputStream fileInputStream = file.getInputStream();
-            EasyExcel.read(fileInputStream,DeptImportExcelEntity.class,listener).sheet(1).headRowNumber(0).doRead();
+            EasyExcel.read(fileInputStream,DeptImportExcelEntity.class,listener).sheet(0).headRowNumber(1).doRead();
             List<Dept> excelEntityList = checkExcelList(listener);
             if(excelEntityList!=null && !excelEntityList.isEmpty()){
                for(Dept dept:excelEntityList){

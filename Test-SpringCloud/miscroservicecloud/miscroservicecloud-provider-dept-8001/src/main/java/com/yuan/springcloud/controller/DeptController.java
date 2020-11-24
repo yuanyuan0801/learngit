@@ -30,7 +30,7 @@ public class DeptController {
 
     @ApiOperation(value = "新增")
     @PostMapping("/dept/add")
-    public ApiResponseEntity add(@RequestBody Dept dept){
+    public ApiResponseEntity add(@RequestBody Dept dept) {
         deptService.add(dept);
         ApiResponseEntity entity = ApiResponseUtil.success();
         return entity;
@@ -39,58 +39,42 @@ public class DeptController {
 
     @ApiOperation(value = "查询所有数据")
     @GetMapping("/dept/list")
-    public List<Dept> findAll(){
+    public List<Dept> findAll() {
         return deptService.findAll();
     }
 
 
     @ApiOperation(value = "部门查询")
     @GetMapping("/dept/get/{id}")
-    public ApiResponseEntity findOneById(@PathVariable("id") Long id){
+    public ApiResponseEntity findOneById(@PathVariable("id") Long id) {
         ApiResponseEntity entity = ApiResponseUtil.successWithData(deptService.findOneById(id));
         return entity;
     }
 
     @ApiOperation("数据导出")
     @GetMapping("/export")
-    public void exportExcel(HttpServletResponse response){
-       long start =  System.currentTimeMillis();
-       deptService.exportExcel(response);
-       long end = System.currentTimeMillis();
-       long time = end-start;
-        System.out.println("下载时长："+time);
+    public void exportExcel(HttpServletResponse response) {
+        long start = System.currentTimeMillis();
+        deptService.exportExcel(response);
+        long end = System.currentTimeMillis();
+        long time = end - start;
+        System.out.println("下载时长：" + time);
     }
 
 
     @ApiOperation(value = "文档模板下载")
     @GetMapping("/download")
-    public void download(HttpServletResponse response){
+    public void download(HttpServletResponse response) {
         deptService.download(response);
     }
 
 
+    @ApiOperation(value = "excel导入")
     @PostMapping("/import")
-    public ApiResponseEntity importExcel(@ApiParam("文件") MultipartFile file){
-      deptService.importExcel(file);
-      return ApiResponseUtil.success();
+    public ApiResponseEntity importExcel(@ApiParam("文件") MultipartFile file) {
+        deptService.importExcel(file);
+        return ApiResponseUtil.success();
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
