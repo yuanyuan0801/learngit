@@ -12,6 +12,7 @@
         <module>miscroservicecloud-consumer-dept-80</module>
         <module>miscroservicecloud-eureka-server-7001</module>
         <module>spring-batch-hello-world</module>
+        <module>springbatch-demo</module>
     </modules>
 
     <packaging>pom</packaging>

@@ -1,0 +1,39 @@
+server:
+  port: 8011
+
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.batch.model
+  configuration:
+    map-underscore-to-camel-case: true
+
+spring:
+  application:
+    name: spring-batch
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test1?rewriteBatchedStatements=true&useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&serverTimezone=GMT%2B8&useSSL=false
+    username: root
+    password: 123456
+    dbcp2:
+      min-idle: 5                                   # 数据库连接池的最小维持连接数
+      initial-size: 5                               # 初始化提供的连接数
+      max-total: 5                                  # 最大的连接数
+      max-wait-millis: 200                          # 等待连接获取的最大超时时间
+  batch:
+    job:
+      enabled: false   #启动时不启动job
+    initialize-schema: always  #表示让spring batch在数据库里面创建默认的数据表
+
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka/#表示入驻注册中心地址
+  instance:
+    instance-id: springbatch8011  #在eureka中重命名
+    prefer-ip-address: true  #显示ip
